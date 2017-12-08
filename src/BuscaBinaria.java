@@ -1,7 +1,9 @@
 public class BuscaBinaria {
 
     private static int busca(int[] array, int chave) {
+        System.out.println("");
         return buscaBinariaRecursiva(array, 0, array.length - 1, chave);
+
     }
 
     private static int buscaBinariaRecursiva(int[] array, int menor, int maior,
